@@ -1,55 +1,54 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
+import java.util.*;
 import java.util.stream.Collectors;
 
-//write a program to find the salary on the bases of different city
-public class Employee {
+class Employee {
     int id;
     String name;
-    Double salary;
+    double salary;
 
-    public Employee(String name, int id, Double salary) {
-        this.name = name;
+    public Employee(int id, String name, double salary) {
         this.id = id;
+        this.name = name;
         this.salary = salary;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public Double getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    @Override
     public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", salary=" + salary +
-                '}';
+        return "Employee{id=" + id + ", name=" + name + ", salary=" + salary + "}";
     }
 }
-  class EmployeeMain
+
+ class ThirdHighestSalary
  {
-     public static  void main(String args[])
-     {
-         List<Employee> employee= Arrays.asList(
-                 new Employee("panney",12,2200.00),
-                 new Employee("ankit",24,23000.00),
-                 new Employee("Rahul",25,25000.00),
-                 new Employee("sweta",74,293000.00),
-                 new Employee("Rohit",84,29000.00));
-         Map<Double,Long> findsalary=employee.stream()
-                 .collect(Collectors.groupingBy(Employee::getSalary,Collectors.counting()));
-     System.out.println("findsalary:"+findsalary);
-     }
- }
+    public static void main(String[] args) {
+        List<Employee> employees = Arrays.asList(
+                new Employee(1, "John", 50000),
+                new Employee(2, "Alice", 70000),
+                new Employee(3, "Bob", 60000),
+                new Employee(4, "David", 90000),
+                new Employee(5, "Eve", 70000)
+        );
+
+        // Find 3rd highest unique salary
+        Optional<Double> thirdHighestSalary = employees.stream()
+                .map(Employee::getSalary)
+                .distinct()
+                .sorted(Comparator.reverseOrder())
+                .skip(2)
+                .findFirst();
+
+        if (thirdHighestSalary.isPresent()) {
+            System.out.println("3rd Highest Salary: " + thirdHighestSalary.get());
+
+            // Print employee(s) with 3rd highest salary
+            employees.stream()
+                    .filter(e -> e.getSalary() == thirdHighestSalary.get())
+                    .forEach(System.out::println);
+        } else {
+            System.out.println("Less than 3 unique salaries available.");
+        }
+    }
+}
