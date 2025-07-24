@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cccfffd-e7c7-444b-ba55-f95a98ff860b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Arraylist1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demojava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HashSet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hashmap1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedHasSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortedSet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StackDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TreeSetDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VectorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EvenOddUsingPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RapperClassDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SinglatonDEmo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubarraySumZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/streamPractics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/streamPractics/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -43,58 +41,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Arraylist1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSet1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hashmap1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedHasSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedSet1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestingMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreeSetDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreesetDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VectorDemo1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdderTesting.executor": "Run",
+    "Application.Arraylist1.executor": "Run",
+    "Application.EvenOddUsingPredicate.executor": "Run",
+    "Application.HashSet1.executor": "Run",
+    "Application.Hashmap1.executor": "Run",
+    "Application.LinkedHasSet.executor": "Run",
+    "Application.LinkedList1.executor": "Run",
+    "Application.MainEmployee.executor": "Run",
+    "Application.Manager.executor": "Run",
+    "Application.NonRepeatingCharacters.executor": "Run",
+    "Application.Number.executor": "Run",
+    "Application.QueueDemo.executor": "Run",
+    "Application.RapperClassDemo.executor": "Run",
+    "Application.SortedSet1.executor": "Run",
+    "Application.StackDemo1.executor": "Run",
+    "Application.SubarraySumZero.executor": "Run",
+    "Application.TestingMain.executor": "Run",
+    "Application.TestingString.executor": "Run",
+    "Application.TreeSetDemo1.executor": "Run",
+    "Application.TreesetDemo.executor": "Run",
+    "Application.VectorDemo1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TreeSetDemo1">
-    <configuration name="Hashmap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hashmap1" />
+}]]></component>
+  <component name="RunManager" selected="Application.EvenOddUsingPredicate">
+    <configuration name="AdderTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdderTesting" />
       <module name="streamPractics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedHasSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedHasSet" />
+    <configuration name="EvenOddUsingPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvenOddUsingPredicate" />
       <module name="streamPractics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSet1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortedSet1" />
+    <configuration name="Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Number" />
       <module name="streamPractics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeSetDemo1" />
+    <configuration name="SubarraySumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SubarraySumZero" />
       <module name="streamPractics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreesetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreesetDemo" />
+    <configuration name="TestingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestingString" />
       <module name="streamPractics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeSetDemo1" />
-        <item itemvalue="Application.Hashmap1" />
-        <item itemvalue="Application.TreesetDemo" />
-        <item itemvalue="Application.SortedSet1" />
-        <item itemvalue="Application.LinkedHasSet" />
+        <item itemvalue="Application.EvenOddUsingPredicate" />
+        <item itemvalue="Application.TestingString" />
+        <item itemvalue="Application.Number" />
+        <item itemvalue="Application.AdderTesting" />
+        <item itemvalue="Application.SubarraySumZero" />
       </list>
     </recent_temporary>
   </component>
