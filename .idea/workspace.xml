@@ -5,18 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cccfffd-e7c7-444b-ba55-f95a98ff860b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EvenOddUsingPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RapperClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SinglatonDEmo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubarraySumZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arraylist1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demojava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvenOddUsingPredicate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashSet1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashmap1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedHasSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Number.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Output.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueueDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RapperClassDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinglatonDEmo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortedSet1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubarraySumZero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeSetDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VectorDemo1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/streamPractics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/streamPractics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streamPractics.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +80,18 @@
     "Application.VectorDemo1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Lenovo/IdeaProjects/JavaStreamCoadingPractics"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EvenOddUsingPredicate">
+  <component name="RunManager" selected="Java Scratch.Scratch">
     <configuration name="AdderTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdderTesting" />
       <module name="streamPractics" />
@@ -92,27 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraySumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SubarraySumZero" />
-      <module name="streamPractics" />
+    <configuration name="TestingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestingString" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestingString" />
-      <module name="streamPractics" />
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EvenOddUsingPredicate" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.TestingString" />
+        <item itemvalue="Application.EvenOddUsingPredicate" />
         <item itemvalue="Application.Number" />
         <item itemvalue="Application.AdderTesting" />
-        <item itemvalue="Application.SubarraySumZero" />
       </list>
     </recent_temporary>
   </component>
